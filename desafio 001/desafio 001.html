@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset='utf-8'>
+	<meta name= "viewport"
+	content = "width-device-widt h, initial-scale=1.0">
+	<title>Imagem Flexível</title>
+</head>
+	<h1>Imagem Flexível</h1>
+<body>
+	<p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar melhor a experiência<br>&#x1F913</p>
+	<picture>
+		<source media="(max-width: 750px)" srcset="imagens/desafiofoto-P.png" type="image/png">
+		<source media="(max-width: 1050px)" srcset="imagens/desafiofoto-M.png" type="image/png">
+		<img src="imagens/desafiofoto-G.png" alt="img flexível">
+	</picture>
+</body>
+</html>
